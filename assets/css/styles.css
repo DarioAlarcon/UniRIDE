@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+header {
+    margin: 30px 15px;
+}
+
+p {
+    margin: 10px;
+}
+
+.header-logo {
+    color: #9BCD01;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.next-rides {
+    padding: 0px 15px;
+}
+
+.next-ride-label {
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+}
+
+.date {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: start;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.ride-container {
+    margin-top: 20px;
+    background-color: #191B1F;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+.hour {
+    font-weight: bold;
+    text-align: left;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle {
+    color: #CCF258;
+    font-weight: bold;
+}
+
+.cancel-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel-button {
+
+    background-color: #FF3434;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 660px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    width: 90%;
+    height: 4rem;
+}
+
+.added {
+    background-color: #CCF258;
+    max-width: 700px;
+}
+
+.available {
+    background-color: #BFBFBF;
+}
+
+.finished {
+    background-color: #FF3434;
+}
+
+@media (min-width: 1000px) {
+
+    .available,
+    .finished {
+        max-width: 290px;
+        width: 100%;
+    }
+}
